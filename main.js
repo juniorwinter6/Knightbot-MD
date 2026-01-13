@@ -543,7 +543,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 }
                 if (!isBotAdmin) {
                     await sock.sendMessage(chatId, {
-                        text: 'Please make the bot an admin first.',
+                        text: 'Make me an admin first.',
                         ...channelInfo
                     }, { quoted: message });
                     return;
@@ -560,7 +560,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 }
                 if (!isBotAdmin) {
                     await sock.sendMessage(chatId, {
-                        text: 'Please make the bot an admin first.',
+                        text: 'Make me an admin first.',
                         ...channelInfo
                     }, { quoted: message });
                     return;
